@@ -11,11 +11,23 @@
 </head>
 
 <body>
-    <header class="header" id="top">
+    <header class="header" id="home">
         <!-- navbar -->
-        <div class="nav_bar">
-
-        </div>
+        <nav class="nav_bar">
+            <div class="nav_center">
+                <div class="nav_header">
+                    <h2 class="logo">awesomecamp</h2>
+                    <button type='button'class="nav_btn" id="nav_btn"><i class="fas fa-bars"></i></button>
+                </div>
+                <ul class="nav_links" id="nav_links">
+                    <li><a href="#home" class="nav_link">home</a></li>
+                    <li><a href="#about" class="nav_link">about us</a></li>
+                    <li><a href="#desc" class="nav_link">benefits</a></li>
+                    <li><a href="#learn" class="nav_link">learn</a></li>
+                    <li><a href="#social" class="nav_link">contact</a></li>
+                </ul>
+            </div>
+        </nav>
         <!-- main background -->
         <div class="main_bcg">
             <div class="content_bcg">
@@ -41,11 +53,11 @@
                 <p class="about_us_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
                     tenetur minima sequi molestiae error similique assumenda veniam nostrum atque rerum officiis alias
                     at perferendis necessitatibus, deserunt laboriosam aut est consequatur.</p>
-                <a href="#" class="btn about_us_btn">register now</a>
+                <a href="#" class="btn about_us_btn" id="desc">register now</a>
             </div>
         </article>
     </section>
-    <section class="description" id="desc">
+    <section class="description">
         <div class="description_title_container">
             <h3>why awesomecamp?</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, doloribus.</p>
@@ -79,8 +91,8 @@
             </div>
         </article>
     </section>
-    <div class="divider"></div>
-    <section class="learn" id="learn">
+    <div class="divider" id="learn"></div>
+    <section class="learn">
         <div class="learn_title_section">
             <h3>what you will learn?</h3>
             <p>in this course you will learn 3 languages</p>
@@ -132,7 +144,7 @@
             </div>
         </article>
     </section>
-    <footer class="media">
+    <footer class="media" id="social">
         <article class="media_content">
             <div class="media_center section_center">
                 <div class="media_icons">
@@ -156,6 +168,7 @@
             </div>
         </article>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
