@@ -200,7 +200,6 @@ p {
 }
 
 .nav_center {
-  padding: 1rem 5rem;
   width: 100%;
 }
 
@@ -261,6 +260,7 @@ p {
   }
 
   .nav_center {
+    padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
